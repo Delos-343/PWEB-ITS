@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+
+    .fakeimg-1 {
+      background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQHXTl3puPCksA/profile-displayphoto-shrink_800_800/0/1655966519094?e=2147483647&v=beta&t=iR0-mUD5eeu8OuVIvVgOehLElxXHYn-YHHomoSHW-Uo");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 1rem;
+    }
+
+    .fakeimg-2 {
+      background-image: url("https://www.mtwebsol.com/wp-content/uploads/2018/03/responsive-webdesign-development-mtwebsol.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 1rem;
+    }
+
+    .fakeimg-3 {
+      background-image: url("https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OVN72UQQLEI6ZOWKQ2YUJ7EKFU.jpg&w=1200");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 1rem;
+
+      .nav-link {
+        display: block;
+      }
+
+      .long-boi {
+        width: 3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+  </style>
+</head>
+
+<body>
+
+  <div class="p-5 bg-dark text-warning text-center">
+    <h1>Mohammed Fachry Dwi Handoko</h1>
+    <p>5025201159</p>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-warning" href="#">● Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Instagram</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Miscellaneous</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Me</h2>
+        <h5>Get to know me!</h5>
+        <div class="fakeimg fakeimg-1"></div>
+        <p>I just know that Sampoerna is inherently superior to Marlboro or Gudang Garam.
+          <br><br>
+         Oh, and I have 3+ years of certified, proven specialization with NEXT.js, Tailwind, and Material UI.
+        </p>
+        <h3 class="mt-5">Your History</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link long-boi" href="#">Mohammed Fachry Dwi Handoko | 5025201159</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personal Log 98</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">See More...</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>PWeb Assignment 03</h2>
+        <h5>DATE : Nov 04, 2022</h5>
+        <div class="fakeimg fakeimg-2"></div>
+        <p>Responsive web design + mobile-first</p>
+        <p>The responsive web design approach works best for multiple media query breakpoints; rendering adaptable
+          layouts and components to ensure usability and satisfaction.</p>
+
+        <h2 class="mt-5">My Career Path</h2>
+        <h5>DATE : Sep 11, 2001</h5>
+        <div class="fakeimg fakeimg-3"></div>
+        <p>Pilot Lessons 101 from an Arab Nobleman</p>
+        <p>FILE CLASSIFIED </p>
+        <p>You need a Class V keycard and Rank N credentials to access this file. Failure to heed this warning in
+          repeated attempts to access will deem your status set for proper euthanization.</p>
+        <p> Preliminary report: [REDACTED]</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-dark text-warning text-center">
+    <h4>The UE thanks you for your loyalty and obedience.</h4>
+  </div>
+
+</body>
+
+</html>
